@@ -160,6 +160,7 @@ ul li {
 /* market analysis related style */
 .analysis-section{
     position: relative;
+    margin-top: 220px;
     display: flex;
     gap: 100px;
     justify-content: space-evenly;
@@ -199,23 +200,22 @@ ul li {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid yellow;
-    transform: translate(0%, -70%);
+    border-left: 380px solid transparent;
+    border-right: 480px solid transparent;
+    border-top: 100px solid white;
+    transform: translate(0%, 0%);
 }
 
 .curve::after{
     content: "";
     display: block;
     position: absolute;
-    border-radius: 100% 50%;
-    width: 55%;
-    height: 100%;
-    /* background-color: var(--color-primary); */
-    background-color: green;
-    transform: translate(40%, -100%);
-    z-index: -1;
+    width: 0;
+    height: 0;
+    border-left: 380px solid transparent;
+    border-right: 640px solid transparent;
+    border-top: 100px solid white;
+    transform: translate(62%, -60%);
 }
 
 /* regulations related styles */
