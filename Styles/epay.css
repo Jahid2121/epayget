@@ -35,8 +35,9 @@
     box-sizing: border-box;
 }
 body {
-    
+    padding: 0;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 /* header styles */
 .logo-div {
@@ -142,9 +143,8 @@ ul li {
     width: 100px;
 }
 
-.feature-title {
 
-}
+
 .feature-card {
     padding: 15px;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -155,6 +155,67 @@ ul li {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+/* market analysis related style */
+.analysis-section{
+    position: relative;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    background-color: var(--color-primary);
+}
+.analysis-content{
+    display: flex;
+}
+
+
+.analysis-title{
+    font-size: 2rem;
+    color: white;
+}
+.analysis-description{
+    color: white;
+}
+
+
+.analysis-img{
+    max-width: 230px;
+}
+
+.curve{
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    top: 0;
+}
+
+.curve::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid yellow;
+    transform: translate(0%, -70%);
+}
+
+.curve::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    /* background-color: var(--color-primary); */
+    background-color: green;
+    transform: translate(40%, -100%);
+    z-index: -1;
 }
 
 /* regulations related styles */
@@ -189,4 +250,11 @@ ul li {
 .servies-section{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+
+/* footer related styles */
+.footer {
+    display: flex;
+    justify-content: center;
 }
