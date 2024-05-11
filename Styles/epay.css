@@ -8,8 +8,12 @@
 
 .btn-primary {
     background-color: var(--color-primary);
+    font-family: "Work Sans", sans-serif;
     border: 0;
     color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 14px;
     padding: 15px;   
     
 }
@@ -28,9 +32,13 @@
 }
 
 *{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    /* font-family: "Inter", sans-serif; */
+    /* font-optical-sizing: auto;
+    font-style: normal; */
+    /*  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
     
     box-sizing: border-box;
 }
@@ -42,12 +50,15 @@ body {
 /* header styles */
 .logo-div {
     display: flex;
+    margin: 20px 70px;
     justify-content: space-between;
+    max-width: 1200px;
 }
 .logo-img {
     width: 240px;
     height: 50px;
 }
+
 
 /* nav related styles */
 
@@ -64,7 +75,26 @@ nav > ul {
 
 ul li {
     list-style: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
     margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.nav-logo{
+    display: flex;
+    margin-left: 25rem;
+}
+.nav-logo li {
+    background-color: white;
+    border-radius: 10px;
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 25px;
 }
 
 /* main related styles */
@@ -81,7 +111,7 @@ ul li {
 .banner-title {
     color: var(--color-primary);
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 .banner-description {
@@ -217,6 +247,9 @@ ul li {
     border-top: 100px solid white;
     transform: translate(62%, -60%);
 }
+
+
+
 
 /* regulations related styles */
 #regulations-title {
