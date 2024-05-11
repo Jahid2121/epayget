@@ -315,3 +315,53 @@ nav a {
     display: flex;
     justify-content: center;
 }
+
+
+/* responsive styles */
+.hide {
+    display: none;
+}
+
+/* small devices */
+@media screen and (max-width:576px) {
+    .btn-primary {
+        border-radius: 5px;
+        margin-right: 10px;
+        font-size: 8px;
+        padding: 10px;   
+        
+    }
+    .logo-div{
+        flex-direction: column;
+        gap: 3px;
+    }
+    .nav-logo{
+        margin-left: 1rem;
+        margin-top: 2px;
+
+    }
+    nav > ul {
+        flex-direction: column;
+    
+    }
+    .banner-section {
+        flex-direction: column;
+        margin: 20px;
+        gap: 40px;
+    }
+    .banner-title {
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    .banner-description {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .banner-btn {
+        font-size: 13px;
+        padding: 15px;   
+        
+    }
+}
+
