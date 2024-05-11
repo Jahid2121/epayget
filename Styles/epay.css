@@ -24,11 +24,13 @@
 
 .card {
     padding: 15px;
+    width: 360px;
     box-shadow: var(--box-shadow)
 }  
 
 .title {
         color: var(--color-primary);
+        font-family: "Inter", sans-serif;
 }
 
 *{
@@ -70,6 +72,7 @@ nav {
 }
 nav > ul {
     display: flex;
+    
 
 }
 
@@ -86,7 +89,7 @@ nav a {
 }
 .nav-logo{
     display: flex;
-    margin-left: 25rem;
+    margin-left: 23rem;
 }
 .nav-logo li {
     background-color: white;
@@ -103,8 +106,10 @@ nav a {
 .banner-section {
     display: flex;
     align-items: center;
-    gap: 170px;
-    margin: 120px;
+    gap: 180px;
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .banner-text {
     max-width: 660px;
@@ -150,7 +155,8 @@ nav a {
     color: var(--color-primary);
     font-weight: 600;
     font-size: 2rem;
-    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
 
@@ -171,15 +177,46 @@ nav a {
 .know-more-container {
     display: flex;
     max-width: 1200px;
-    margin: 20px auto;
+    font-family: 'Inter', sans-serif;
+    margin: 40px auto;
+    gap: 100px;
+    justify-content: center;
+}
+#know-title{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--color-primary);
 }
 .know-img {
     width: 570px;
 }
+ul > li {
+    margin-top: 20px;
 
-/* feature feature related styles */
+}
+.know-list-item{
+    list-style: circle;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#know-button{
+    color: var(--color-primary);
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 2px;
+    border-bottom: 2px solid var(--color-primary);
+    background-color: white;
+}
+/* feature  related styles */
 .feature-section {
     color: var(--color-primary);
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: 10px;
@@ -205,6 +242,10 @@ nav a {
     width: 270px;
 }   
 
+.feature-title{
+    font-family: 'Inter', sans-serif;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -215,12 +256,13 @@ nav a {
 .analysis-section{
     position: relative;
     margin-top: 220px;
+    
     display: flex;
     gap: 100px;
     justify-content: space-evenly;
     align-items: center;
     min-height: 400px;
-    padding: 100px 20vw;
+    padding: 150px 20vw;
     background-color: var(--color-primary);
 }
 .analysis-content{
@@ -230,10 +272,14 @@ nav a {
 
 .analysis-title{
     font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
     color: white;
 }
 .analysis-description{
     color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -272,6 +318,20 @@ nav a {
     transform: translate(62%, -60%);
 }
 
+#market-button{
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 2px;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: var(--color-primary);
+}
+
 
 
 
@@ -288,11 +348,19 @@ nav a {
 
 .regulation-card-container {
     display: grid;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+.regulation-card {
+    padding: 25px;
+    box-shadow: var(--box-shadow)
+} 
+.regulation-description{
+    font-family: 'Inter',sans-serif;
+}
+
 
 /* services section related styles */
 .service-img-container{
@@ -304,7 +372,7 @@ nav a {
     margin-right: 50px;
 }
 
-.servies-section{
+.services-section{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -371,6 +439,13 @@ nav a {
         margin-left: 40px;
 
     }
+    .know-more-container {
+        flex-direction: column;
+    }
+    .know-img {
+        width: 370px;
+    }
+    
     
 }
 
