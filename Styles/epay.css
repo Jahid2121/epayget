@@ -71,7 +71,16 @@ body {
 
 
 /* header styles */
-
+.logo-div {
+    display: flex;
+    margin: 20px 70px;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.logo-img {
+    width: 240px;
+    height: 50px;
+}
 
 
 /* nav related styles */
@@ -157,6 +166,70 @@ nav a {
     padding: 25px;   
     
 }
+
+
+/* Team Overview related styles */
+
+.team-section{
+    position: relative;
+    margin-top: 220px;
+    display: flex;
+    gap: 50px;
+    min-height: 400px;
+    padding: 150px ;
+    background-color: var(--color-primary);
+}
+.team-text-content{
+    width: 700px;
+}
+
+.team-title{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.team-description{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+
+.team-img{
+    max-width: 350px;
+}
+
+.curve1{
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    top: 0;
+}
+
+.curve1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: var(--color-primary);
+    transform: translate(-30%, -30%);
+    z-index: -1;
+}
+
+.curve1::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #fff;
+    transform: translate(65%, -69%);
+}
+
 
 
 
@@ -553,6 +626,78 @@ regulation-description{
     .know-img {
         width: 370px;
     }
+    
+.team-section{
+    margin-top: 220px;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 30px;
+    padding: 50px ;
+    background-color: var(--color-primary);
+}
+.team-text-content{
+    width: 250px;
+}
+
+.team-title{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.team-description{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+
+.team-img{
+    max-width: 250px;
+}
+
+
+
+
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .footer-title{
+        font-size: 14px;
+    }
+    
+    .footer-developer{
+        flex-direction: row;
+    }
+    
+    .footer-row-3{
+        flex-direction: column;
+    }
+    
+    
+    .footer-img{
+        flex-direction: row;
+    }
+    .footer-link{
+        margin-bottom: 5px;
+    }
+    
+    .footer-social-icons{
+        flex-direction: column;
+    }
+    
+    
+    
+    .footer-desc{
+        display: flex;
+        flex-direction: column;
+    }
+
     
     
 }
