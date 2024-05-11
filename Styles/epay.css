@@ -49,6 +49,32 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
 }
+
+/* <div className="absolute flex justify-center  left-5 right-5 bottom-3 ">
+<a  className="w-5 h-5 rounded-full bg-white bg-opacity-40 mr-2"></a>
+<a  className="w-5 h-5 rounded-full bg-white  mr-2"></a>
+<a  className="w-5 h-5 rounded-full bg-white bg-opacity-40 mr-2"></a>
+</div> */
+.slide-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slide-btns a {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    margin-right: 9px;
+
+}
+.slide-btns .active{
+    background-color: #E41E25;
+}
+
+
+
 /* header styles */
 .logo-div {
     display: flex;
@@ -338,6 +364,7 @@ ul > li {
 /* regulations related styles */
 #regulations-title {
     color: var(--color-primary);
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: 10px;
@@ -357,7 +384,7 @@ ul > li {
     padding: 25px;
     box-shadow: var(--box-shadow)
 } 
-.regulation-description{
+regulation-description{
     font-family: 'Inter',sans-serif;
 }
 
@@ -365,6 +392,17 @@ ul > li {
 /* services section related styles */
 .service-img-container{
     display: flex;
+    margin-left: 40px;
+    gap: 20px;
+}
+#services-title {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .service-img{
