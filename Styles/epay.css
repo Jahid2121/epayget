@@ -363,5 +363,14 @@ nav a {
         padding: 15px;   
         
     }
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 300px;
+        margin-left: 40px;
+
+    }
+    
 }
 
