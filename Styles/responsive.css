@@ -33,7 +33,8 @@
     .banner-img {
       border: none;
       box-shadow: none;
-      width: 130px; 
+      width: 290px; 
+      align-items: center;
     }
   
     .banner-section {
@@ -222,6 +223,9 @@
   border: 1px solid saddlebrown;
 }
 
+.card-container {
+  margin-left: 50px;
+}
 
 
   
