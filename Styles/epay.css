@@ -546,7 +546,7 @@ regulation-description {
     height: 50px;
   }
   .nav-logo {
-    margin-left: 1rem;
+    margin-left: 0px;
     margin-top: 2px;
   }
   nav > ul {
@@ -555,7 +555,7 @@ regulation-description {
   .banner-section {
     flex-direction: column;
     margin: 20px;
-    gap: 40px;
+    gap: 20px;
   }
   .banner-title {
     font-size: 25px;
@@ -585,15 +585,15 @@ regulation-description {
   }
 
   .team-section {
-    margin-top: 220px;
+    margin-top: 20px;
     flex-direction: column;
     margin-left: 0px;
     gap: 30px;
-    padding: 50px;
+    padding: 20px;
     background-color: var(--color-primary);
   }
   .team-text-content {
-    width: 250px;
+    width: auto;
   }
 
   .team-title {
@@ -609,7 +609,7 @@ regulation-description {
   }
 
   .team-img {
-    max-width: 250px;
+    max-width: 100%;
   }
   .curve1 {
     display: none;
@@ -626,10 +626,10 @@ regulation-description {
   /* analysis */
   .analysis-section{
     position: relative;
-    margin-top: 220px;
+    margin-top: 20px;
     flex-direction: column;
     gap: 10px;
-    padding: 150px 20vw;
+    padding: 20px 20vw;
     background-color: var(--color-primary);
 }
 
@@ -643,7 +643,7 @@ regulation-description {
 
 
 .analysis-img{
-    max-width: 130px;
+    max-width: 100%;
 }
 
 .curve{
@@ -673,7 +673,7 @@ regulation-description {
   }
   
   .feature-img {
-    width: 100px;
+    width: auto;
   }
   
   .feature-card {
