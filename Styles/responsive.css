@@ -1,0 +1,236 @@
+/* responsive styles */
+/* small devices */
+@media screen and (max-width: 576px) {
+    .btn-primary {
+      border-radius: 5px;
+      margin-right: 10px;
+      font-size: 8px;
+      padding: 10px;
+    }
+    .logo-div {
+      flex-direction: column;
+      gap: 3px;
+    }
+    .logo-img {
+      width: 140px;
+      height: 50px;
+    }
+    .nav-logo {
+      margin-left: 0px;
+      margin-top: 2px;
+    }
+
+    nav > ul {
+      flex-direction: column;
+    }
+
+    /* banner */
+    .banner-img{
+        border: none;
+        box-shadow: none;
+        width: 100%;
+    }
+    .banner-section {
+      flex-direction: column;
+      margin: 20px;
+      gap: 20px;
+    }
+    .banner-title {
+      font-size: 25px;
+      margin-bottom: 7px;
+    }
+    .banner-description {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  
+    .banner-btn {
+      font-size: 13px;
+      padding: 15px;
+    }
+    .card-container {
+      flex-direction: column;
+    }
+    .card {
+      width: 300px;
+      margin-left: 40px;
+    }
+    /* know more */
+    .know-more-container {
+      flex-direction: column;
+    }
+    .know-img {
+      width: 370px;
+    }
+    /* team */
+  
+    .team-section {
+        position: static;
+      margin-top: 0px;
+      flex-direction: column;
+      margin-left: 0px;
+      /* border: 2px solid red; */
+      gap: 0px;
+      padding-left: 40px;
+      min-height: auto;
+      width: 100%;
+
+      background-color: var(--color-primary);
+    }
+    .team-text-content {
+      width: 80%;
+    }
+  
+    .team-title {
+      font-size: 15px;
+      font-weight: 600;
+      font-family: "Inter", sans-serif;
+      color: white;
+      /* border: 2px solid yellow; */
+    }
+    .team-description {
+        font-size: 10px;
+      color: white;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      /* border: 2px solid green; */
+    }
+  
+    .team-img {
+      width: 80%;
+      /* border: 2px solid slateblue; */
+    }
+    .curve1 {
+      display: none;
+    }
+  
+    .curve1::before {
+      display: none;
+    }
+  
+    .curve1::after {
+      display: none;
+    }
+  
+    /* analysis */
+    .analysis-section{
+      position: relative;
+      margin-top: 20px;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px 20vw;
+      background-color: var(--color-primary);
+  }
+  
+  
+  .analysis-title{
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      color: white;
+  }
+  
+  
+  .analysis-img{
+      max-width: 100%;
+  }
+  
+  .curve{
+      visibility: hidden;
+  }
+  
+  .curve::before{
+      visibility: hidden;
+  }
+  
+  .curve::after{
+      visibility: hidden;
+  }
+  
+  #market-button{
+      font-size: 13px;
+  }
+  
+  /* feature */
+  .feature-section {
+      margin-left: 30px;
+      font-size: 1rem;
+    }
+    .feature-card-container {
+      flex-direction: column;
+      margin-left: 30px;
+    }
+    
+    .feature-img {
+      width: auto;
+    }
+    
+    .feature-card {
+      padding: 15px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      width: 270px;
+    }
+    
+    .feature-title {
+      font-family: "Inter", sans-serif;
+    }
+    
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+  
+  /* services  */
+  .service-img-container {
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+    #services-title {
+      font-size: 1rem;
+    }
+    
+    
+  
+  
+  
+  
+    /* Footer */
+  
+    .footer {
+      flex-direction: column;
+      gap: 0px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+  
+    .footer-title {
+      font-size: 12px;
+    }
+  
+    .footer-developer {
+      flex-direction: row;
+    }
+  
+    .footer-row-3 {
+      flex-direction: column;
+    }
+  
+    .footer-img {
+      flex-direction: row;
+    }
+    .footer-link {
+      margin-bottom: 5px;
+    }
+  
+    .footer-social-icons {
+      flex-direction: column;
+    }
+  
+    .footer-desc {
+      display: flex;
+      flex-direction: column;
+    }
+  }
