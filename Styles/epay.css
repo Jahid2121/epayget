@@ -31,6 +31,7 @@
   font-family: "Inter", sans-serif;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -77,10 +78,11 @@ nav {
   background-color: var(--color-primary);
   /* border: 2px solid red; */
   color: white;
-  padding: 20px;
+  padding: 5px;
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 
 ul li {
@@ -112,9 +114,8 @@ nav a {
 /* banner related styles */
 .banner-section {
   display: flex;
-  border: 2px solid red;
   align-items: center;
-  gap: 20px;
+  justify-content: space-between;
   margin-left: 80px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -138,7 +139,9 @@ nav a {
 }
 
 .banner-img {
-  width: 100%;
+  width: 400px;
+  margin-right: 100px;
+  border-radius: 6px;
   border: 2px solid var(--color-primary);
   box-shadow: 20px 20px rgba(255, 0, 9, 0.1);
 }
@@ -161,7 +164,7 @@ nav a {
   display: flex;
   gap: 50px;
   min-height: 400px;
-  padding: 0px;
+  padding: 50px;
   background-color: var(--color-primary);
 }
 .team-text-content {
@@ -225,6 +228,10 @@ nav a {
   justify-content: center;
 }
 
+.key-description{
+  font-family: "Inter", sans-serif;
+}
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -246,7 +253,7 @@ nav a {
   color: var(--color-primary);
 }
 .know-img {
-  width: 570px;
+  width: 500px;
 }
 ul > li {
   margin-top: 20px;
@@ -287,7 +294,7 @@ ul > li {
 }
 
 .feature-img {
-  width: 100px;
+  width: 100%;
 }
 
 .feature-card {
@@ -310,10 +317,11 @@ ul > li {
 /* market analysis related style */
 .analysis-section {
   position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
   margin-top: 220px;
-
   display: flex;
-  gap: 100px;
+  gap: 60px;
   justify-content: space-evenly;
   align-items: center;
   min-height: 400px;
@@ -322,6 +330,7 @@ ul > li {
 }
 .analysis-content {
   display: flex;
+  max-width: 700px;
 }
 
 .analysis-title {
@@ -337,7 +346,7 @@ ul > li {
 }
 
 .analysis-img {
-  max-width: 230px;
+  width: 230px;
 }
 
 .curve {
@@ -395,10 +404,14 @@ ul > li {
   display: flex;
   justify-content: center;
 }
+.regulation-subtitle{
+  display: flex;
+  justify-content: center;
+}
 
 .regulation-card-container {
   display: grid;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -407,7 +420,7 @@ ul > li {
   padding: 25px;
   box-shadow: var(--box-shadow);
 }
-regulation-description {
+.regulation-description {
   font-family: "Inter", sans-serif;
 }
 
@@ -483,6 +496,7 @@ regulation-description {
 
 .footer-social-icons {
   display: flex;
+  align-items: start;
 }
 
 .footer-social {
