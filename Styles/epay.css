@@ -190,35 +190,7 @@ nav a {
   max-width: 350px;
 }
 
-.curve1 {
-  position: absolute;
-  height: 225px;
-  width: 100%;
-  top: 0;
-}
 
-.curve1::before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: var(--color-primary);
-  transform: translate(-30%, -30%);
-  z-index: -1;
-}
-
-.curve1::after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: #fff;
-  transform: translate(65%, -69%);
-}
 
 /* key feature related styles */
 .key-section {
@@ -244,6 +216,7 @@ nav a {
 /* know more section related style */
 .know-more-container {
   display: flex;
+  
   max-width: 1200px;
   font-family: "Inter", sans-serif;
   margin: 40px auto;
