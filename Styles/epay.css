@@ -436,7 +436,7 @@ ul > li {
 }
 #services-title {
   color: var(--color-primary);
-  font-family: var(--font-family-Inter);
+  font-family: var(--font-family-Inter                --);
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 10px;
