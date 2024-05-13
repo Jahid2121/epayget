@@ -216,7 +216,7 @@ nav a {
 /* know more section related style */
 .know-more-container {
   display: flex;
-  
+
   max-width: 1200px;
   font-family: "Inter", sans-serif;
   margin: 40px auto;
@@ -253,49 +253,14 @@ ul > li {
   border-bottom: 2px solid var(--color-primary);
   background-color: white;
 }
-/* feature  related styles */
-.feature-section {
-  color: var(--color-primary);
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-}
-.feature-card-container {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
 
-.feature-img {
-  width: 100%;
-}
-
-.feature-card {
-  padding: 15px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  width: 270px;
-}
-
-.feature-title {
-  font-family: "Inter", sans-serif;
-}
-
-.card-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
 
 /* market analysis related style */
 .analysis-section {
   position: relative;
   max-width: 1300px;
   margin: 0 auto;
-  margin-top: 220px;
+  margin-top: 120px;
   display: flex;
   gap: 60px;
   justify-content: space-evenly;
@@ -325,36 +290,6 @@ ul > li {
   width: 230px;
 }
 
-.curve {
-  position: absolute;
-  height: 225px;
-  width: 100%;
-  top: 0;
-}
-
-.curve::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 380px solid transparent;
-  border-right: 480px solid transparent;
-  border-top: 100px solid white;
-  transform: translate(0%, 0%);
-}
-
-.curve::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 380px solid transparent;
-  border-right: 640px solid transparent;
-  border-top: 100px solid white;
-  transform: translate(62%, -60%);
-}
 
 #market-button {
   font-size: 16px;
@@ -369,6 +304,44 @@ ul > li {
   border-bottom: 2px solid white;
   background-color: var(--color-primary);
 }
+/* feature  related styles */
+.feature-section {
+  color: var(--color-primary);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.feature-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-card {
+  padding: 15px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  width: 270px;
+}
+
+.feature-title {
+  font-family: var(--font-family-Inter)
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 
 /* regulations related styles */
 #regulations-title {
