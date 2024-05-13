@@ -107,18 +107,6 @@
     width: 60vw;
   }
 
-  /* issue1:Cause - display none is not working */
-  .curve1 {
-    display: none;
-  }
-
-  .curve1::before {
-    display: none;
-  }
-
-  .curve1::after {
-    display: none;
-  }
 
   /* Key feature */
 
@@ -188,33 +176,26 @@
   .analysis-title {
     font-size: 25px;
     font-weight: 600;
-    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-family: var(--font-family-Inter);
     color: white;
   }
   .analysis-description {
     font-size: 13px;
+    margin-left: 20px;
     width: 80vw;
   }
 
   .analysis-img {
     width: 50%;
     margin-left: 60px;
-  }
-
-  .curve {
-    display: none;
-  }
-
-  .curve::before {
-    display: none;
-  }
-
-  .curve::after {
-    display: none;
+    margin-top: 20px;
   }
 
   #market-button {
-    font-size: 8px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
 
   
