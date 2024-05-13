@@ -258,11 +258,10 @@
    /* services  */
    .service-img-container {
     flex-direction: column;
-    /* new */
     align-items: center;
   }
   #services-title {
-    font-size: 25px;
+    font-size: 8vw;
   }
 
 
@@ -270,7 +269,7 @@
   /* Footer */
 
   .footer {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
     gap: 0px;
     margin-top: 40px;
   }
