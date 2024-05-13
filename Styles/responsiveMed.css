@@ -2,8 +2,32 @@
 /* Medium Devices */
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+    /* logo section */
+    .logo-div {
+        flex-direction: column;
+        gap: 40px;
+      }
+      /* nav */
+  .nav-logo {
+    margin-left: 0px;
+    margin-top: 2px;
+  }
 
+  /* banner */
 
+  .banner-title {
+    font-size: 30px;
+  }
 
+  .banner-img {
+    width: 30vw;
+  }
+
+  .banner-btn {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  
 
 }
