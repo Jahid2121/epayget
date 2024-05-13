@@ -403,6 +403,7 @@ ul > li {
 /* footer related styles */
 .footer {
   display: flex;
+  align-items: first baseline;
   gap: 80px;
   margin-left: 90px;
   margin-top: 60px;
@@ -439,11 +440,14 @@ ul > li {
   color: black;
   font-weight: 400;
 }
-.active-gateway {
-  font-family: "Work Sans", sans-serif;
+
+.footer-link:hover {
   color: var(--color-primary);
-  font-weight: 600;
+  text-decoration: underline;
+  font-weight: 700px;
 }
+
+
 
 .footer-social-icons {
   display: flex;
@@ -453,6 +457,7 @@ ul > li {
 .footer-social {
   color: white;
 }
+
 
 .footer-desc {
   font-family: "Inter", sans-serif;
