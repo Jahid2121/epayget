@@ -34,6 +34,10 @@
   box-shadow: var(--box-shadow);
 }
 
+.card:hover {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .title {
   color: var(--color-primary);
   font-family: "Inter", sans-serif;
@@ -297,9 +301,14 @@ ul > li {
   margin-bottom: 2px;
   border-bottom: 2px solid var(--color-primary);
   background-color: white;
+  transition: background-color 0.3s ease, transform 0.3 ease;
 }
-
-
+#know-button:hover {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 5px;
+  font-weight: bolder;
+} 
 /* market analysis related style */
 .analysis-section {
   position: relative;
@@ -382,9 +391,14 @@ ul > li {
 
 .feature-card {
   padding: 15px;
+  width: 270px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.feature-card:hover {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  width: 270px;
+
 }
 
 .feature-title {
@@ -424,6 +438,11 @@ ul > li {
 .regulation-card {
   padding: 25px;
   box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+.regulation-card:hover {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .regulation-description {
   font-family: "Inter", sans-serif;
